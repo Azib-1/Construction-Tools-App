@@ -1,0 +1,46 @@
+global text_Input
+    global PaymentRef
+    global CementMixer
+    global HammerDrillBosh
+    global BoshBreaker
+    global ForkLift
+    global PaidTax
+    global SubTotal
+    global Insurance
+    global TotalCost
+    global CostofCementMixer
+    global CostofHammerDrillBosh
+    global CostofBoshBreaker
+    global Excavator
+    global CostofForkLift
+    global CostofExcavator
+    global DateofOrder
+    global Delivery
+
+    text_Input=StringVar()
+    operator=""
+    PaymentRef=StringVar()
+    CementMixer=StringVar()
+    HammerDrillBosh=StringVar()
+    BoshBreaker=StringVar()
+    Excavator=StringVar()
+    ForkLift=StringVar()
+    PaidTax=StringVar()
+    SubTotal=StringVar()
+    Insurance=StringVar()
+    TotalCost=StringVar()
+    CostofCementMixer=StringVar()
+    CostofHammerDrillBosh=StringVar()
+    CostofBoshBreaker=StringVar()
+    CostofExcavator=StringVar()
+    CostofForkLift=StringVar()
+    DateofOrder=StringVar()
+
+    CementMixer.set(0)
+    HammerDrillBosh.set(0)
+    BoshBreaker.set(0)
+    Excavator.set(0)
+    ForkLift.set(0)
+    Insurance.set(1)
+    Delivery=StringVar()
+    Delivery.set(0)
